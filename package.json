@@ -1,0 +1,37 @@
+{
+  "name": "zenkaku-wrap",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Line wrapping library for terminal interfaces that correctly handles CJK characters",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "files": [
+    "src/index.js",
+    "license.md",
+    "package-lock.json",
+    "package.json",
+    "readme.md"
+  ],
+  "keywords": [
+    "cjk",
+    "east-asian-characters",
+    "fullwidth",
+    "line-wrap",
+    "string",
+    "terminal",
+    "unicode",
+    "wide-characters"
+  ],
+  "homepage": "https://github.com/msikma/zenkaku-wrap",
+  "repository": "https://github.com/msikma/zenkaku-wrap",
+  "author": "Michiel Sikma <michiel@sikma.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "zenkaku-string": "^1.0.0"
+  }
+}
